@@ -4,7 +4,7 @@ A lightweight, library-free C service that allows you to safely shut down an Ora
 
 ## Features
 
-* **Zero Dependencies:** Uses the Linux Sysfs interface directly—no `libgpiod` or Python required.
+* **Zero Dependencies:** Uses the Linux Sysfs interface directly.
 * **Low Overhead:** Efficient C polling loop with minimal CPU usage.
 * **Visual Feedback:** Automatically turns the onboard Red LED solid during shutdown to signal the process is active.
 * **Modern Kernel Support:** Compatible with Debian/Armbian on Kernel 6.1+.
